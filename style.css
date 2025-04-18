@@ -1,0 +1,193 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.container{
+max-width: 1220px;
+margin: 0 auto;
+}
+header{
+    padding: 30px;
+}
+header .container{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+nav ul{
+    display: flex;
+align-items: center;
+list-style: none;
+gap: 25px;
+}
+nav ul li a{
+    color:  #737373;
+    text-decoration: none;
+}
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero h1{
+font-size: 50px;
+font-weight: 900;
+line-height: 58.59px;
+margin-bottom: 58px;
+}
+.btn{
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+color: white;
+padding: 10px 30px;
+border-radius: 7px;
+border: none;
+}
+.box h1{
+text-align: center;
+margin-bottom: 120px;
+font-size: 50px;
+}
+.box span{
+    color:  #B90160 ;
+}
+.card{
+    width: 344px;
+    height: 414px;
+}
+.card h2{
+margin-bottom: 20px;
+margin-top: 15px;
+font-size: 30px;
+}
+.card p{
+    color:#737373;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box1{
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+margin-left: 50px;
+display: flex;
+justify-content: space-around;
+align-items:center;
+width: 1400px;
+height: 357px;
+
+}
+.secdiv{
+    width: 436px;
+    background-color: white;
+    text-align: center;
+    padding: 44px 64px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 0px #00000040;
+    flex-wrap: wrap;
+}
+.secdiv img{
+    margin-top: -130px;
+}
+footer{
+    padding: 150px 200px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    nav{
+        display: none;
+    }
+.hero h1{
+    width: 323px;
+line-height: 40px;
+    font-size: 40px;
+}
+.hero img{
+    width: 368px;
+}
+.box1{
+    gap: 70px;
+    justify-content: center;
+}
+}
+@media(max-width:490px){
+    .hero img{
+display: none;
+    }
+    .hero{
+        background-image: url(./img/подложка\ 1.png);
+        background: no-repeat;
+background-size:cover;
+justify-content: center;
+text-align: center;
+padding: 50px 0;
+    }
+    .box1{
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+    .ota{
+        margin-left: 80px;
+        margin-bottom: 40px;
+    }
+  .dev{
+    margin-left: 80px;
+  }
+.text{
+    margin-left: 80px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
